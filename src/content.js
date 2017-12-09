@@ -6,7 +6,7 @@ export const content = {
       "name": "Cambridge Audio",
       "brief": "I’ve been responsible for the majority of the global hi-fi brand’s front-end development for the last two years.",
       "link": "/cambridge",
-      "image": "/cambridge/cambridge-se1-thumb.jpg"
+      "image": "/cambridge/cambridge-se1-thumb-high.jpg"
     },
     {
       "name": "Constellations",

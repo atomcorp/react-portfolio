@@ -20,7 +20,6 @@ export default function Project(props) {
         </Link>
       </div>
       <div className={styles.image}>
-        {  }
         <img src={image} alt={`Screenshot of ${project.name} web page`} />
       </div>
 

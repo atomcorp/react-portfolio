@@ -1,0 +1,63 @@
+@import "../../mixins";
+
+.project {
+  padding: 0 0 120px;
+  @include tablet {
+    display: flex;
+    padding: 0 0 240px;
+  }
+}
+
+.notReversed {
+  flex-direction: row;
+}
+
+.reversed {
+  flex-direction: row-reverse;
+  .copy {
+    @include tablet {
+      padding: 0 0 0 60px;
+    }
+  }
+}
+
+.copy {
+  @include tablet {
+    max-width: 620px;
+    padding: 0 60px 0 0;
+  }
+}
+
+.image {
+  border: 6px solid #333;
+  @include tablet {
+    width: 100%;
+    max-width: 760px;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.name {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 0 30px;
+}
+
+.brief {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 0 30px;
+  line-height: 1.5;
+}
+
+.link {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 0 30px;
+
+}

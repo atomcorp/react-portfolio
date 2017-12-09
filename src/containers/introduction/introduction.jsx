@@ -31,7 +31,7 @@ export default class Introduction extends Component<Props> {
               <h1>{ content.title }</h1>
             </div>
             <div className={styles.introduction}>
-              <p>{ content.introduction }</p>
+              <h2>{ content.introduction }</h2>
             </div>
           </div>
           <div className={styles.links}>

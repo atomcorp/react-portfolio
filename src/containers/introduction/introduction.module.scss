@@ -1,17 +1,19 @@
 @import "../../mixins";
 
 .content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 1500px;
   padding: 60px;
+  @include tablet {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1500px;
+  }
 }
 
 .copy {
@@ -22,27 +24,40 @@
 
 .title {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
+  padding: 0 0 60px;
+
   h1 {
     margin: 0;
-  }
-  @include tablet {
-    font-size: 4rem;
-  }
-  @include desktop {
-    font-size: 5rem;
+    @include tablet {
+      font-size: 4rem;
+      // this uses the /n in the text to break a break
+      white-space: pre-line;
+    }
+    @include desktop {
+      font-size: 5rem;
+    }
   }
 }
 
 .introduction {
-  font-size: 2rem;
   font-weight: 700;
+  padding: 0 0 60px;
   @include tablet {
-    font-size: 3rem;
+    padding: 0;
   }
   @include desktop {
-    font-size: 4rem;
+  }
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    @include tablet {
+      font-size: 3rem;
+    }
+    @include desktop {
+      font-size: 4rem;
+    }
   }
 }
 

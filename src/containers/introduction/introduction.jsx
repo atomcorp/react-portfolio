@@ -11,10 +11,9 @@ type Props = {
 export default class Introduction extends Component<Props> {
 
   returnLinks() {
-    let id = 0;
     const links = content.links.map((link) => {
       return (
-        <Link key={id++} to={link.path} className={styles.link}>
+        <Link key={link.path} to={link.path} className={styles.link}>
           { link.title }
         </Link>
       );

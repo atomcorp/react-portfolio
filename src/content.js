@@ -29,7 +29,7 @@ export const content = {
     {
       "name": "Through the Wireframe",
       "brief": "A simple kit for quickly developing wireframe-looking prototypes. I shared it on Github and so far it has one star ⭐!",
-      "link": "/10-2015",
+      "link": "/through-the-wireframe",
       "image": "/cambridge/cambridge-thumb.jpg"
     },  
   ],

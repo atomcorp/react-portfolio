@@ -1,5 +1,5 @@
 .content {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
@@ -8,18 +8,47 @@
   margin: 0 auto;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 60px; }
+
+@media (min-width: 768px) {
+  .copy {
+    padding: 0 30px 0 0; } }
 
 .title {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase; }
   .title h1 {
     margin: 0; }
+  @media (min-width: 768px) {
+    .title {
+      font-size: 4rem; } }
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 5rem; } }
 
 .introduction {
-  font-size: 3rem; }
+  font-size: 2rem; }
+  @media (min-width: 768px) {
+    .introduction {
+      font-size: 3rem; } }
+  @media (min-width: 1024px) {
+    .introduction {
+      font-size: 4rem; } }
 
 .links {
-  font-size: 3rem; }
+  font-size: 2rem;
+  font-weight: 700; }
+  @media (min-width: 768px) {
+    .links {
+      padding: 0 0 0 30px;
+      font-size: 3rem; } }
+  @media (min-width: 1024px) {
+    .links {
+      font-size: 4rem; } }
+
+.link {
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1); }
+  .link:hover {
+    transform: translateX(25px); }

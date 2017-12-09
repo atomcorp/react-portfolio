@@ -1,4 +1,4 @@
 export const content = {
   "title": "Thomas Maxwell Smith",
-  "introduction": "I am an experienced London-based front-end developer who loves building websites for both users and their browsers."
+  "introduction": "Experienced front-end developer based in London who loves building websites for both users and their browsers."
 }

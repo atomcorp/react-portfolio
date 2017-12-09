@@ -16,10 +16,10 @@ export default class Introduction extends Component {
             </div>
           </div>
           <div className={styles.links}>
-            <div className="links">Projects</div>
-            <div className="links">Experience</div>
-            <div className="links">Skills</div>
-            <div className="links">Contact</div>
+            <div className={styles.link}>Projects</div>
+            <div className={styles.link}>Experience</div>
+            <div className={styles.link}>Skills</div>
+            <div className={styles.link}>Contact</div>
           </div>
         </div>
         

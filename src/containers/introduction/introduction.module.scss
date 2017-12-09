@@ -1,5 +1,7 @@
+@import "../../mixins";
+
 .content {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
@@ -8,23 +10,56 @@
   margin: 0 auto;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 60px;
+}
+
+.copy {
+  @include tablet {
+    padding: 0 30px 0 0;
+  }
 }
 
 .title {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   h1 {
     margin: 0;
   }
+  @include tablet {
+    font-size: 4rem;
+  }
+  @include desktop {
+    font-size: 5rem;
+  }
 }
 
 .introduction {
-  font-size: 3rem;
+  font-size: 2rem;
+  @include tablet {
+    font-size: 3rem;
+  }
+  @include desktop {
+    font-size: 4rem;
+  }
 }
 
 .links {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  @include tablet {
+    padding: 0 0 0 30px;
+    font-size: 3rem;
+  }
+  @include desktop {
+    font-size: 4rem;
+  }
+}
+
+.link {
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  &:hover {
+    transform: translateX(25px);
+  }
 }

@@ -1,8 +1,27 @@
+// @flow
 import React, { Component } from 'react';
 import styles from './introduction.module.css';
 import { content } from '../../content.js';
+import { Link } from 'react-router-dom';
 
-export default class Introduction extends Component {
+type Props = {
+  
+};
+
+export default class Introduction extends Component<Props> {
+
+  returnLinks() {
+    let id = 0;
+    const links = content.links.map((link) => {
+      return (
+        <Link key={id++} to={link.path} className={styles.link}>
+          { link.title }
+        </Link>
+      );
+    })
+    return links;
+  }
+  
   render() {
     return (
       <section className={styles.page}>
@@ -16,10 +35,7 @@ export default class Introduction extends Component {
             </div>
           </div>
           <div className={styles.links}>
-            <div className={styles.link}>Projects</div>
-            <div className={styles.link}>Experience</div>
-            <div className={styles.link}>Skills</div>
-            <div className={styles.link}>Contact</div>
+            { this.returnLinks() }
           </div>
         </div>
         

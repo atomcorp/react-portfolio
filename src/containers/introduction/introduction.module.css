@@ -24,16 +24,17 @@
   @media (min-width: 768px) {
     .title {
       font-size: 4rem; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .title {
       font-size: 5rem; } }
 
 .introduction {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: 700; }
   @media (min-width: 768px) {
     .introduction {
       font-size: 3rem; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .introduction {
       font-size: 4rem; } }
 
@@ -44,11 +45,14 @@
     .links {
       padding: 0 0 0 30px;
       font-size: 3rem; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .links {
       font-size: 4rem; } }
 
 .link {
-  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1); }
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  padding: 0 0 15px;
+  display: block;
+  text-decoration: none; }
   .link:hover {
     transform: translateX(25px); }

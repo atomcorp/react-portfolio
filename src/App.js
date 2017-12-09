@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Introduction from './containers/introduction/introduction.jsx';
-
-import styles from './styles/index.module.css';
+import Projects from './containers/projects/projects.jsx';
 
 class App extends Component {
   render() {
-    console.log(styles);
     return (
-      <Introduction></Introduction>
+      <BrowserRouter>
+        <section>
+          <Route exact path="/" component={ Introduction }/>
+          <Route exact path="/projects" component={ Projects }/>
+        </section>
+      </BrowserRouter>
     );
   }
 }

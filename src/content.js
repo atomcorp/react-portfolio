@@ -50,5 +50,10 @@ export const content = {
       "title": "Contact",
       "path": "/contact"
     }
-  ]
+  ],
+  "experience": [
+    "I’m a self-taught developer, I began learning basic web design during a web module for my journalism degree, and as I slowly progressed I occasionally took on freelance work for people and organisations such as a charity, a fashion designer and a business run by Hollyoaks actors (true story).",
+    "While I was working at a "
+  ],
+  "github": 'https://github.com/atomcorp' 
 }

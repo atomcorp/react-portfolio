@@ -31,9 +31,12 @@
 
 .image {
   border: 15px solid #fff;
+  position: relative;
   @include tablet {
     width: 100%;
     max-width: 760px;
+    max-height: 600px;
+    overflow-y: hidden;
   }
   img {
     display: block;
@@ -41,6 +44,10 @@
     height: auto;
     // crisper images
     transform: translate3D(0, 0, 0);
+    transition: transform 2s cubic-bezier(0.23, 1, 0.32, 1);
+    &:hover {
+      animation: scrollDown 8s, scrollUp 2s 8s forwards;
+    }
   }
 }
 
@@ -67,5 +74,32 @@
   display: block;
   &:hover {
     transform: translateX(25px);
+  }
+}
+
+@keyframes scrollDown {
+  0% { 
+    transform: translate3D(0, 0, 0);
+  }
+  25% { 
+    transform: translate3D(0, calc(-25% + 150px), 0);
+  }
+  50% { 
+    transform: translate3D(0, calc(-50% + 300px), 0);
+  }
+  75% { 
+    transform: translate3D(0, calc(-75% + 450px), 0);
+  }
+  100% { 
+    transform: translate3D(0, calc(-100% + 600px), 0); 
+  }
+}
+
+@keyframes scrollUp {
+  from {
+    transform: translate3D(0, calc(-100% + 600px), 0); 
+  }
+  to {
+    transform: translate3D(0, 0, 0);
   }
 }

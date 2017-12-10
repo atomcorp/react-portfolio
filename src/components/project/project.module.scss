@@ -45,8 +45,10 @@
     // crisper images
     transform: translate3D(0, 0, 0);
     transition: transform 2s cubic-bezier(0.23, 1, 0.32, 1);
-    &:hover {
-      animation: scrollDown 8s, scrollUp 2s 8s forwards;
+    &.loadedImg {
+      &:hover {
+        animation: scrollDown 8s, scrollUp 2s 8s forwards;
+      }
     }
   }
 }
@@ -96,6 +98,10 @@
   -ms-interpolation-mode: nearest-neighbor;
 }
 
+.loadedImg {
+  /*animation: fade-in 1s cubic-bezier(0.23, 1, 0.32, 1);*/
+}
+
 @keyframes scrollDown {
   0% { 
     transform: translate3D(0, 0, 0);
@@ -139,5 +145,14 @@
   }
   100% {
     transform: rotateY(0deg) rotateX(0deg)
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

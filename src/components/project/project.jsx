@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 import styles from './project.module.css';
+import ProgressiveImage from 'react-progressive-image';
 
 export default function Project(props) {
   const project = props.project;
-  const image = require(`../../assets/projects${project['small-image']}`);
+  console.log(project)
+  const smallImage = require(`../../assets/projects${project['small-image']}`);
+  const largeImage = require(`../../assets/projects${project['image']}`);
 
   return (
     <section className={styles.project + ' ' + styles[props.reverse]}>
@@ -20,7 +23,13 @@ export default function Project(props) {
         </Link>
       </div>
       <div className={styles.image}>
-        <img src={image} alt={`Screenshot of ${project.name} web page`} />
+        <ProgressiveImage src={largeImage} placeholder={smallImage}>
+          {(src, loading) => {
+            const hasClass = loading ? styles.loadingImg : styles.loadedImg;
+            return <img className={hasClass} src={src} alt={`Screenshot of ${project.name} web page`} />;
+            }
+          }
+        </ProgressiveImage>
       </div>
 
     </section>

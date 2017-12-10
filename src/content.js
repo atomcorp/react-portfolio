@@ -12,25 +12,25 @@ export const content = {
       "name": "Constellations",
       "brief": "A Liverpool-based bar and venue comissioned me to design and build them a CMS website that showcased their upcoming events, menu and venue hire.",
       "link": "/constellations",
-      "image": "/cambridge/cambridge-thumb.jpg"
+      "image": "/constellations/constellations-thumb-3.jpg"
     },
     {
       "name": "44Too",
       "brief": "A personal project I made with React for a football predictions game. It integrates with Firebase for saving and authenticating user’s data.",
       "link": "/44too",
-      "image": "/cambridge/cambridge-thumb.jpg"
+      "image": "/44too/44too-thumb.jpg"
     },
     {
       "name": "10-2015",
       "brief": "A small, personal project to experiment with AngularJs (v1), listing my favourite music from 2015.",
       "link": "/10-2015",
-      "image": "/cambridge/cambridge-thumb.jpg"
+      "image": "/10-2015/10-2015-thumb.jpg"
     },
     {
       "name": "Through the Wireframe",
-      "brief": "A simple kit for quickly developing wireframe-looking prototypes. I shared it on Github and so far it has one star ⭐!",
+      "brief": "A simple kit for quickly developing wireframe-looking prototypes. I shared it on Github and so far it has two (!) stars ⭐⭐",
       "link": "/through-the-wireframe",
-      "image": "/cambridge/cambridge-thumb.jpg"
+      "image": "/wireframe/wireframe-thumb.jpg"
     },  
   ],
   "links": [

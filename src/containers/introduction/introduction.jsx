@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import styles from './introduction.module.css';
 import { content } from '../../content.js';
 import { Link } from 'react-router-dom';
+// import Blob from '../../components/blob/blob.jsx';
 
 type Props = {
   

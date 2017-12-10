@@ -1,0 +1,13 @@
+.clipSvg {
+ clip-path: url(#clip); 
+ width: 259px;
+ height: 201px;
+}
+
+.backimg {
+  background-image: url(../../assets/clip-masks/watercolor-1.jpg);
+  background-size: cover;
+  clip-path: url(#clip); 
+  width: 159px;
+  height: 123px;
+}

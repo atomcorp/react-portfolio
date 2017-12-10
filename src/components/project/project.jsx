@@ -14,8 +14,8 @@ export default function Project(props) {
         <div className={styles.brief}>
           { project.brief }
         </div>
-        <Link to={ `/projects${project.link}` } className={styles.link}>
-          more
+        <Link to={ project.link } className={styles.link}>
+          View
         </Link>
       </div>
       <div className={styles.image}>

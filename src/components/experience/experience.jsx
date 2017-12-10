@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './experience.module.css';
 import { content } from '../../content.js';
+import Navigation from '../navigation/navigation.jsx';
 
 export default function Experience(props) {
 
@@ -14,6 +15,7 @@ export default function Experience(props) {
   return (
     <section>
       <div className={ styles.page }>
+        <Navigation />
         <div className={styles.heading}>
           <h2>Experience</h2>
         </div>

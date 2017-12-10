@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './skills.module.css';
 import { content } from '../../content.js';
+import Navigation from '../navigation/navigation.jsx';
 
 export default function(props) {
 
@@ -23,6 +24,7 @@ export default function(props) {
   return (
     <section>
       <div className={styles.page}>
+      <Navigation />
         <div className={styles.heading}>
           <h2>Skills</h2>
         </div>

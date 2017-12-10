@@ -11,3 +11,12 @@ body {
   color: #333;
   background: #F5F5F5;
 }
+
+a {
+  color: #6b97c7;
+  transition: color 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+a:hover {
+  color: #5d88b7;
+}

@@ -5,6 +5,7 @@ import Introduction from './containers/introduction/introduction.jsx';
 import Projects from './containers/projects/projects.jsx';
 import ProjectPage from './components/project--page/project--page.jsx';
 import Experience from './components/experience/experience.jsx';
+import Skills from './components/skills/skills.jsx';
 import { content } from './content.js';
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
           <Route exact path="/" component={ Introduction }/>
           <Route exact path="/projects" component={ Projects }/>
           <Route exact path="/experience" component={ Experience }/>
+          <Route exact path="/skills" component={ Skills }/>
           { this.returnProductPageRoutes() }
         </section>
       </BrowserRouter>

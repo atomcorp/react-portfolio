@@ -1,0 +1,10 @@
+.navigation {
+  padding: 0 0 60px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

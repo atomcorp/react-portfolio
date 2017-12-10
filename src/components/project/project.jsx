@@ -4,7 +4,6 @@ import styles from './project.module.css';
 
 export default function Project(props) {
   const project = props.project;
-  console.log(props.reverse);
   const image = require(`../../assets/projects${project.image}`);
   return (
     <section className={styles.project + ' ' + styles[props.reverse]}>
@@ -15,8 +14,8 @@ export default function Project(props) {
         <div className={styles.brief}>
           { project.brief }
         </div>
-        <Link to={ project.link } className={styles.link}>
-          info + images
+        <Link to={ `/projects${project.link}` } className={styles.link}>
+          more
         </Link>
       </div>
       <div className={styles.image}>

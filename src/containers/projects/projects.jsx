@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Project from '../../components/project/project.jsx';
 import styles from './projects.module.css';
 import { content } from '../../content.js';
+import Navigation from '../../components/navigation/navigation.jsx';
 
 export default class Projects extends Component {
 
@@ -18,6 +19,7 @@ export default class Projects extends Component {
     return (
       <section>
         <div className={styles.page}>
+          <Navigation/>
           <div className={styles.heading}>
             <h2>Projects</h2>
           </div>

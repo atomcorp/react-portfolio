@@ -4,6 +4,7 @@
   padding: 0 0 120px;
   @include tablet {
     display: flex;
+    align-items: flex-start;
     padding: 0 0 240px;
   }
 }

@@ -11,6 +11,15 @@ type Props = {
 
 export default class Introduction extends Component<Props> {
 
+  returnFirstAnimation() {
+    let animate = '';
+    if (!sessionStorage.getItem('firstRun')) {
+      animate = ` ${styles.animate}`;
+      sessionStorage.setItem('firstRun', 'true');
+    }
+    return animate;
+  }
+
   returnLinks() {
     const links = content.links.map((link) => {
       return (
@@ -23,22 +32,24 @@ export default class Introduction extends Component<Props> {
   }
   
   render() {
+    const animate = this.returnFirstAnimation();
+    // const animate = ` ${styles.animate}`;
     return (
+      
       <section className={styles.page}>
         <div className={styles.content}>
           <div className={styles.copy}>
-            <div className={styles.title}>
+            <div className={styles.title + animate}>
               <h1>{ content.title }</h1>
             </div>
-            <div className={styles.introduction}>
+            <div className={styles.introduction + animate}>
               <h2>{ content.introduction }</h2>
             </div>
           </div>
-          <div className={styles.links}>
+          <div className={styles.links + animate}>
             { this.returnLinks() }
           </div>
         </div>
-        
       </section>
       )
   }

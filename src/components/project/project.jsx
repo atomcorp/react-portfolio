@@ -4,7 +4,7 @@ import styles from './project.module.css';
 
 export default function Project(props) {
   const project = props.project;
-  const image = require(`../../assets/projects${project.image}`);
+  const image = require(`../../assets/projects${project['small-image']}`);
 
   return (
     <section className={styles.project + ' ' + styles[props.reverse]}>

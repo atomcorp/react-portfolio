@@ -6,30 +6,35 @@ export const content = {
       "name": "Cambridge Audio",
       "brief": "I’ve been responsible for the majority of the global hi-fi brand’s front-end development for the last two years.",
       "image": "/cambridge/cambridge-full.jpg",
+      "small-image": "/10-2015/10-2015-tiny.jpg",
       "link": "https://www.cambridgeaudio.com/"
     },
     {
       "name": "Constellations",
       "brief": "A Liverpool-based bar and venue comissioned me to design and build them a CMS website that showcased their upcoming events, menu and venue hire.",
       "image": "/constellations/constellations-full.jpg",
+      "small-image": "/10-2015/10-2015-tiny.jpg",
       "link": "http://www.constellations-liv.com/"
     },
     {
       "name": "44Too",
       "brief": "A personal project I made with React for a football predictions game. It integrates with Firebase for saving and authenticating user’s data.",
       "image": "/44too/44too-full.jpg",
+      "small-image": "/10-2015/10-2015-tiny.jpg",
       "link": "https://pp-react.firebaseapp.com/app"
     },
     {
       "name": "10-2015",
       "brief": "A small, personal project to experiment with AngularJs (v1), listing my favourite music from 2015.",
       "image": "/10-2015/10-2015-full.jpg",
+      "small-image": "/10-2015/10-2015-tiny.jpg",
       "link": "https://atomcorp.github.io/throughthewireframe/"
     },
     {
       "name": "Through the Wireframe",
       "brief": "A simple kit for quickly developing wireframe-looking prototypes. I shared it on Github and so far it has two (!) stars ⭐⭐",
       "image": "/wireframe/wireframe-full.jpg",
+      "small-image": "/10-2015/10-2015-tiny.jpg",
       "link": "https://atomcorp.github.io/throughthewireframe/"
     },  
   ],

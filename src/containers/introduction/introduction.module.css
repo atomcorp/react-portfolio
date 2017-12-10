@@ -1,3 +1,11 @@
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
 .content {
   padding: 60px; }
   @media (min-width: 768px) {
@@ -31,6 +39,9 @@
     @media (min-width: 1200px) {
       .title h1 {
         font-size: 5rem; } }
+  .title.animate {
+    opacity: 0;
+    animation: slideRight 1.2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
 
 .introduction {
   font-weight: 700;
@@ -47,6 +58,9 @@
     @media (min-width: 1200px) {
       .introduction h2 {
         font-size: 4rem; } }
+  .introduction.animate {
+    opacity: 0;
+    animation: slideUp 1s 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
 
 .links {
   font-size: 2rem;
@@ -58,6 +72,9 @@
   @media (min-width: 1200px) {
     .links {
       font-size: 4rem; } }
+  .links.animate {
+    opacity: 0;
+    animation: slideLeft 0.5s 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
 
 .link {
   transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
@@ -66,3 +83,33 @@
   text-decoration: none; }
   .link:hover {
     transform: translateX(25px); }
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }

@@ -45,11 +45,11 @@
     // crisper images
     transform: translate3D(0, 0, 0);
     transition: transform 2s cubic-bezier(0.23, 1, 0.32, 1);
-    &.loadedImg {
-      &:hover {
-        animation: scrollDown 8s, scrollUp 2s 8s forwards;
-      }
-    }
+    // &.loadedImg {
+    //   &:hover {
+    //     animation: scrollDown 8s, scrollUp 2s 8s forwards;
+    //   }
+    // }
   }
 }
 

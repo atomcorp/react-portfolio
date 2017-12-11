@@ -11,6 +11,7 @@ export default class Project extends Component {
     this.traveled = 0;
     this.hovering = false;
     this.speed = 2000;
+    this.timer;
   }
 
   setImageHeight() {
@@ -20,11 +21,12 @@ export default class Project extends Component {
   }
 
   handleTravel() {
-    const travel = (this.image.scrollHeight / 6) + this.traveled;
-    if (travel < this.image.scrollHeight) {
+    const offset = this.image.offsetParent.clientHeight; 
+    const travel = ((this.image.scrollHeight / 6) + this.traveled) - (offset / 5);
+    if (travel < this.image.scrollHeight - offset) {
       this.image.style.transform = `translate3D(0, -${travel}px, 0)`;
       this.traveled = travel;
-      setTimeout(() => {
+      this.timer = setTimeout(() => {
         if (this.hovering) {
           this.handleTravel();
         }
@@ -42,14 +44,16 @@ export default class Project extends Component {
   }
 
   handleMouseEnter() {
-    this.hovering = true;
-    if (!this.height) {
+    this.traveled = 0;
+    if (!this.height && !this.hovering) {
+      this.hovering = true;
       this.handleTravel();
     }
   }
 
   handleMouseLeave() {
     this.hovering = false;
+    clearTimeout(this.timer);
     this.reset();
   }
 

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"animation",
+				"animation-delay"
+			],
+			[
+				"compon",
+				"Component"
+			],
+			[
+				"pro",
+				"promise\t.promise()"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"paragr",
+				"paragraphs"
+			],
+			[
+				"project",
+				"project--page"
+			],
+			[
 				"marign",
 				"margin"
 			],
@@ -18,10 +50,6 @@
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"menu",
@@ -66,10 +94,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"gamewe",
@@ -203,6 +227,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/components/project/project.jsx",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -211,17 +244,13 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 231.0,
-		"last_filter": "",
+		"height": 276.0,
+		"last_filter": "bab",
 		"selected_items":
 		[
 			[
-				"babe",
+				"bab",
 				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"bebl",
-				"Babel Transform"
 			],
 			[
 				"babel",
@@ -229,7 +258,19 @@
 			],
 			[
 				"babl",
+				"Babel Transform"
+			],
+			[
+				"bable",
 				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"bebl",
+				"Babel Transform"
 			],
 			[
 				"insta",
@@ -262,10 +303,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"bab",
-				"Set Syntax: JavaScript (Babel)"
 			],
 			[
 				"mat",
@@ -309,10 +346,6 @@
 			],
 			[
 				"bble",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"bable",
 				"Set Syntax: JavaScript (Babel)"
 			],
 			[
@@ -369,27 +402,39 @@
 		"/C/Users/atom/sites/portfolio-react",
 		"/C/Users/atom/sites/portfolio-react/public",
 		"/C/Users/atom/sites/portfolio-react/src",
-		"/C/Users/atom/sites/portfolio-react/src/containers",
-		"/C/Users/atom/sites/portfolio-react/src/containers/introduction",
-		"/C/Users/atom/sites/portfolio-react/src/containers/projects"
+		"/C/Users/atom/sites/portfolio-react/src/components",
+		"/C/Users/atom/sites/portfolio-react/src/components/project"
 	],
 	"file_history":
 	[
+		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/project/project.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/content.js",
+		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/App.js",
+		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/experience/experience.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/skills/skills.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/index.css",
+		"/C/Users/atom/sites/portfolio-react/src/components/blob/blob.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/blob/blob.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/skills/skills.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/assets/clip-masks/blob-1.svg",
+		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/experience/experience.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/project--page/project--page.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.css",
 		"/C/Users/atom/sites/portfolio-react/src/component/project/project.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/component/project/project.scss",
-		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.scss",
-		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.module.scss",
-		"/C/Users/atom/sites/portfolio-react/src/content.js",
 		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/App.js",
 		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.css",
 		"/C/Users/atom/AppData/Local/Temp/flow/flowlib_f46dbc8/react.js",
 		"/C/Users/atom/sites/portfolio-react/package.json",
 		"/C/Users/atom/sites/portfolio-react/src/_mixins.scss",
 		"/C/Users/atom/sites/portfolio-react/.gitignore",
-		"/C/Users/atom/sites/portfolio-react/src/index.css",
 		"/C/Users/atom/sites/portfolio-react/src/styles/index.module.css",
 		"/C/Users/atom/sites/portfolio-react/public/index.html",
 		"/C/Users/atom/sites/portfolio-react/src/styles/Button.module.css",
@@ -489,24 +534,11 @@
 		"/C/Users/atom/sites/test/test-react-pp/src/xhr-requests/set-game.js",
 		"/F/Users/Tom/Downloads/pp-react-export (17).json",
 		"/C/Users/atom/sites/test/test-react-pp/src/components/total-points.jsx",
-		"/C/Users/atom/sites/test/test-react-pp/src/components/points.jsx",
-		"/C/Users/atom/sites/test/test-react-pp/src/api.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/firebase-connect.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/components/sign-up.jsx",
-		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
-		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Material-Theme-Palenight.sublime-theme",
-		"/F/Users/Tom/Downloads/pp-react-export (16).json",
-		"/F/Users/Tom/Downloads/pp-react-users-export.json",
-		"/C/Users/atom/sites/test/test-react-pp/src/xhr-requests/add-user.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/firebase.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/components/user-page.jsx",
-		"/C/Users/atom/sites/test/test-react-pp/src/xhr-requests/get-fixtures.jsx",
-		"/F/Users/Tom/Downloads/pp-react-export (13).json",
-		"/C/Users/atom/sites/test/test-react-pp/src/xhr-requests/set-predictions.jsx"
+		"/C/Users/atom/sites/test/test-react-pp/src/components/points.jsx"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -538,6 +570,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+			"cubic-bezier(0.895, 0.03, 0.685, 0.22)",
+			"img",
+			"image tbd",
 			"links",
 			".\n",
 			"heroes",
@@ -661,11 +697,7 @@
 			"handleTotalPoints",
 			"h1",
 			"home",
-			"changeRoute",
-			"div",
-			"thead",
-			"update(",
-			"update"
+			"changeRoute"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -683,14 +715,46 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/components/project/project.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -739,7 +803,7 @@
 	"project": "portfolio-react.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -748,6 +812,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"con",
+				"src\\content.js"
+			],
+			[
+				"conten",
+				"src\\content.js"
+			],
+			[
+				"conte",
+				"src\\content.js"
+			]
 		],
 		"width": 0.0
 	},

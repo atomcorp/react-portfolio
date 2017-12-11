@@ -5,7 +5,6 @@ import ProgressiveImage from 'react-progressive-image';
 
 export default function Project(props) {
   const project = props.project;
-  console.log(project)
   const smallImage = require(`../../assets/projects${project['small-image']}`);
   const largeImage = require(`../../assets/projects${project['image']}`);
 
@@ -24,7 +23,8 @@ export default function Project(props) {
       </div>
       <div className={styles.image}>
         <ProgressiveImage src={largeImage} placeholder={smallImage}>
-          {(src, loading) => {
+          {
+            (src, loading) => {
             const hasClass = loading ? styles.loadingImg : styles.loadedImg;
             return <img className={hasClass} src={src} alt={`Screenshot of ${project.name} web page`} />;
             }

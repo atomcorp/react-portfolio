@@ -21,20 +21,19 @@ export default class Project extends Component {
   }
 
   handleTravel() {
-    const offset = this.image.offsetParent.clientHeight; 
-    const travel = ((this.image.scrollHeight / 6) + this.traveled) - (offset / 5);
-    if (travel < this.image.scrollHeight - offset) {
+    const offset = this.image.offsetParent.clientHeight;
+    const distance = this.image.scrollHeight - offset;
+    const travel = ((this.image.scrollHeight - offset) / 4) + this.traveled;
+    if (travel <= this.image.scrollHeight - offset) {
       this.image.style.transform = `translate3D(0, -${travel}px, 0)`;
       this.traveled = travel;
       this.timer = setTimeout(() => {
-        if (this.hovering) {
-          this.handleTravel();
-        }
+        this.handleTravel();
       }, 2000);
     } else {
       this.reset();
     }
-    console.log(travel);
+    console.log(distance, travel);
     
   }
 
@@ -45,14 +44,12 @@ export default class Project extends Component {
 
   handleMouseEnter() {
     this.traveled = 0;
-    if (!this.height && !this.hovering) {
-      this.hovering = true;
+    if (!this.height) {
       this.handleTravel();
     }
   }
 
   handleMouseLeave() {
-    this.hovering = false;
     clearTimeout(this.timer);
     this.reset();
   }

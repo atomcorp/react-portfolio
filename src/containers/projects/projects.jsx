@@ -19,7 +19,7 @@ export default class Projects extends Component {
     return (
       <section>
         <div className={styles.page}>
-          <Navigation/>
+          <Navigation location={this.props.location.pathname} />
           <div className={styles.heading}>
             <h2>Projects</h2>
           </div>

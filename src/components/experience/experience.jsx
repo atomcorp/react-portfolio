@@ -15,7 +15,7 @@ export default function Experience(props) {
   return (
     <section>
       <div className={ styles.page }>
-        <Navigation />
+        <Navigation location={props.location.pathname} />
         <div className={styles.heading}>
           <h2>Experience</h2>
         </div>

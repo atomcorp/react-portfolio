@@ -33,9 +33,7 @@ export default class Project extends Component {
       }, 2000);
     } else {
       this.reset();
-    }
-    console.log(distance, travel);
-    
+    }    
   }
 
   reset() {

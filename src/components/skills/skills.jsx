@@ -24,7 +24,7 @@ export default function(props) {
   return (
     <section>
       <div className={styles.page}>
-      <Navigation />
+      <Navigation location={props.location.pathname} />
         <div className={styles.heading}>
           <h2>Skills</h2>
         </div>

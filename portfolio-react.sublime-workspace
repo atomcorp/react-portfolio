@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"hover",
+				"hovering"
+			],
+			[
+				"travel",
+				"traveled"
+			],
+			[
 				"animation",
 				"animation-delay"
 			],
@@ -231,7 +239,26 @@
 			"file": "src/components/project/project.jsx",
 			"settings":
 			{
-				"buffer_size": 1190,
+				"buffer_size": 2780,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "notes.todo",
+			"settings":
+			{
+				"buffer_size": 43,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "ntoes"
+			}
+		},
+		{
+			"file": "src/components/project/project.module.scss",
+			"settings":
+			{
+				"buffer_size": 2950,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -570,6 +597,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hovering",
+			"handleClick",
 			"cubic-bezier(0.25, 0.46, 0.45, 0.94)",
 			"cubic-bezier(0.895, 0.03, 0.685, 0.22)",
 			"img",
@@ -695,9 +724,7 @@
 			"tr",
 			"getPoints",
 			"handleTotalPoints",
-			"h1",
-			"home",
-			"changeRoute"
+			"h1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -724,15 +751,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1190,
+						"buffer_size": 2780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								243,
-								243
+								749,
+								749
 							]
 						],
 						"settings":
@@ -743,10 +770,74 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "notes.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ntoes",
+							"git_gutter_is_enabled": true,
+							"plain_tasks_remain_time_phantoms":
+							[
+							],
+							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/project/project.module.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2142,
+								2142
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2604.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

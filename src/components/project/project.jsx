@@ -9,9 +9,9 @@ export default class Project extends Component {
     super(props);
     this.imageLoaded = false;
     this.traveled = 0;
-    this.hovering = false;
     this.speed = 2000;
     this.timer;
+    this.hoverIntent;
   }
 
   setImageHeight() {
@@ -23,8 +23,9 @@ export default class Project extends Component {
   handleTravel() {
     const offset = this.image.offsetParent.clientHeight;
     const distance = this.image.scrollHeight - offset;
-    const travel = ((this.image.scrollHeight - offset) / 4) + this.traveled;
-    if (travel <= this.image.scrollHeight - offset) {
+    const breaks = distance < 1500 ? 3 : 4;
+    const travel = (distance / breaks) + this.traveled;
+    if (travel <= distance) {
       this.image.style.transform = `translate3D(0, -${travel}px, 0)`;
       this.traveled = travel;
       this.timer = setTimeout(() => {
@@ -44,13 +45,16 @@ export default class Project extends Component {
 
   handleMouseEnter() {
     this.traveled = 0;
-    if (!this.height) {
-      this.handleTravel();
-    }
+    this.hoverIntent = setTimeout(() => {
+      if (!this.height) {
+        this.handleTravel();
+      }
+    }, 400);
   }
 
   handleMouseLeave() {
     clearTimeout(this.timer);
+    clearTimeout(this.hoverIntent);
     this.reset();
   }
 

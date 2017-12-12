@@ -25,10 +25,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <section className="router">
-          <Route exact path="/" render={() => <Introduction /> }/>
-          <Route exact path="/projects" component={ Projects } />
-          <Route exact path="/experience" component={ Experience }/>
-          <Route exact path="/skills" component={ Skills }/>
+          <Introduction />
+          <Projects />
+          <Experience />
+          <Skills />
         </section>
       </BrowserRouter>
     );

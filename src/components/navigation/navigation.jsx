@@ -4,7 +4,6 @@ import styles from './navigation.module.css';
 import { content } from '../../content.js';
 
 export default function Navigation(props) {
-  console.log(props);
 
   function handleLocation(path) {
     const style = props.location === path ? styles.inactive : styles.active;

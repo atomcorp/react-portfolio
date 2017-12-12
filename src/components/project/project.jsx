@@ -10,8 +10,8 @@ export default class Project extends Component {
     this.imageLoaded = false;
     this.traveled = 0;
     this.speed = 2000;
-    this.timer;
-    this.hoverIntent;
+    this.timer = '';
+    this.hoverIntent = '';
   }
 
   setImageHeight() {

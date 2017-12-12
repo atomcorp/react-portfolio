@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './experience.module.css';
 import { content } from '../../content.js';
-import Navigation from '../navigation/navigation.jsx';
+// import Navigation from '../navigation/navigation.jsx';
 
 export default function Experience(props) {
 

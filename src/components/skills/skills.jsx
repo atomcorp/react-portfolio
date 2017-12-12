@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './skills.module.css';
 import { content } from '../../content.js';
-import Navigation from '../navigation/navigation.jsx';
+// import Navigation from '../navigation/navigation.jsx';
 
 export default function(props) {
 

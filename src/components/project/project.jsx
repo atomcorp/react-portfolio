@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; 
 import styles from './project.module.css';
 import ProgressiveImage from 'react-progressive-image';
-import downArrowImage from '../../assets/svgs/arrow.svg';
+// import downArrowImage from '../../assets/svgs/arrow.svg';
 
 export default class Project extends Component {
 
@@ -42,8 +42,7 @@ export default class Project extends Component {
     this.traveled = 0;
   }
 
-  handleMouseEnter(e) {
-    console.log(e);
+  handleMouseEnter() {
     this.traveled = 0;
     this.hoverIntent = setTimeout(() => {
       if (!this.height) {
@@ -85,7 +84,7 @@ export default class Project extends Component {
               }
               return <img 
                 ref={(img) => this.image = img} 
-                onMouseEnter={(e) => this.handleMouseEnter(e)}
+                onMouseEnter={() => this.handleMouseEnter()}
                 onMouseLeave={() => this.handleMouseLeave()}
                 className={hasClass} 
                 src={src} 
@@ -93,9 +92,12 @@ export default class Project extends Component {
               }
             }
           </ProgressiveImage>
+          {/*
           <div className={styles.encourage}>
             <img src={ downArrowImage } alt=""/>
           </div>
+
+          */}
         </div>
 
       </section>

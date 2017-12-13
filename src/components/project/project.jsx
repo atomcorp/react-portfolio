@@ -10,9 +10,6 @@ export default class Project extends Component {
     super(props);
     this.imageLoaded = false;
     this.traveled = 0;
-    this.speed = 2000;
-    this.timer = '';
-    this.hoverIntent = '';
   }
 
   setImageHeight() {
@@ -29,9 +26,6 @@ export default class Project extends Component {
     if (travel <= distance) {
       this.image.style.transform = `translate3D(0, -${travel}px, 0)`;
       this.traveled = travel;
-      this.timer = setTimeout(() => {
-        this.handleTravel();
-      }, 2000);
     } else {
       this.reset();
     }    
@@ -42,19 +36,8 @@ export default class Project extends Component {
     this.traveled = 0;
   }
 
-  handleMouseEnter() {
-    this.traveled = 0;
-    this.hoverIntent = setTimeout(() => {
-      if (!this.height) {
-        this.handleTravel();
-      }
-    }, 400);
-  }
-
-  handleMouseLeave() {
-    clearTimeout(this.timer);
-    clearTimeout(this.hoverIntent);
-    this.reset();
+  handleClick() {
+    this.handleTravel();
   }
 
   render() {
@@ -84,8 +67,8 @@ export default class Project extends Component {
               }
               return <img 
                 ref={(img) => this.image = img} 
-                onMouseEnter={() => this.handleMouseEnter()}
-                onMouseLeave={() => this.handleMouseLeave()}
+                onClick={() => this.handleClick()}
+                /*onMouseLeave={() => this.handleMouseLeave()}*/
                 className={hasClass} 
                 src={src} 
                 alt={`Screenshot of ${project.name} web page`} />;

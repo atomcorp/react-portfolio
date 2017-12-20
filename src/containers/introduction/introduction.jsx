@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import styles from './introduction.module.css';
 import { content } from '../../content.js';
+import { Link } from 'react-router-dom';
 // import Blob from '../../components/blob/blob.jsx';
 
 type Props = {
@@ -22,9 +23,9 @@ export default class Introduction extends Component<Props> {
   returnLinks() {
     const links = content.links.map((link) => {
       return (
-        <a key={link.path} href={`#${link.path}`} className={styles.link}>
+        <Link key={link.path} to={link.path} className={styles.link}>
           { link.title }
-        </a>
+        </Link>
       );
     })
     return links;

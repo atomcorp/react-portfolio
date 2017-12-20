@@ -18,7 +18,6 @@ export default class Projects extends Component {
   render() {
     return (
       <section>
-        <a name="projects"></a>
         <div className={styles.page}>
           <div className={styles.heading}>
             <h2>Projects</h2>

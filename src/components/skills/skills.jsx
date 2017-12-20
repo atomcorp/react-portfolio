@@ -26,7 +26,6 @@ export default function(props) {
 
   return (
     <section>
-      <a name="skills"></a>
       <div className={styles.page}>
         <div className={styles.heading}>
           <h2>Skills</h2>

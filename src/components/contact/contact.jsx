@@ -23,7 +23,6 @@ export default function Contact() {
 
   return (
     <section>
-      <a name="contact"></a>
       <div className={ styles.page }>
         <div className={ styles.heading }>
           <h2>Contact</h2>

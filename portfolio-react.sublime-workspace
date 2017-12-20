@@ -239,7 +239,36 @@
 			"file": "src/components/project/project.jsx",
 			"settings":
 			{
-				"buffer_size": 2955,
+				"buffer_size": 2256,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/project/project.module.scss",
+			"settings":
+			{
+				"buffer_size": 2850,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"#fffff\" height=\"24\" viewBox=\"0 0 55.66 54.83\" width=\"24\">\n    <path d=\"M0 0h24v24H0V0z\" fill=\"none\"/>\n    <path d=\"M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z\" fill=\"#fff\"/>\n</svg>",
+			"file": "src/assets/svgs/arrow.svg",
+			"file_size": 242,
+			"file_write_time": 131575896109803560,
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/svgs/arrow-mod.svg",
+			"settings":
+			{
+				"buffer_size": 328,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -465,7 +494,9 @@
 		"/C/Users/atom/sites/portfolio-react/public",
 		"/C/Users/atom/sites/portfolio-react/src",
 		"/C/Users/atom/sites/portfolio-react/src/assets",
+		"/C/Users/atom/sites/portfolio-react/src/assets/svgs",
 		"/C/Users/atom/sites/portfolio-react/src/components",
+		"/C/Users/atom/sites/portfolio-react/src/components/project",
 		"/C/Users/atom/sites/portfolio-react/src/components/skills",
 		"/C/Users/atom/sites/portfolio-react/src/containers",
 		"/C/Users/atom/sites/portfolio-react/src/containers/home",
@@ -636,6 +667,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"imageLoaded",
+			"setImageHeight",
+			"speed",
 			"@include ",
 			"downArrowImage",
 			"timer",
@@ -760,10 +794,7 @@
 			"ensurePositiveNumber",
 			"result",
 			"onChange",
-			"onFixtureChange",
-			"props.",
-			"arePredictionsValid",
-			"arePredictionsValie"
+			"onFixtureChange"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -790,15 +821,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2955,
+						"buffer_size": 2256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								191,
-								191
+								183,
+								183
 							]
 						],
 						"settings":
@@ -812,11 +843,100 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "src/components/project/project.module.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1955,
+								1955
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2436.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/assets/svgs/arrow.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								147
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/svgs/arrow-mod.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "src/components/skills/skills.jsx",
 					"semi_transient": false,
 					"settings":
@@ -843,11 +963,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "src/containers/projects/projects.jsx",
 					"semi_transient": false,
 					"settings":
@@ -874,11 +994,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "src/App.js",
 					"semi_transient": false,
 					"settings":
@@ -905,11 +1025,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "src/containers/introduction/introduction.jsx",
 					"semi_transient": false,
 					"settings":
@@ -936,11 +1056,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "src/containers/home/home.jsx",
 					"semi_transient": false,
 					"settings":
@@ -967,11 +1087,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "src/components/experience/experience.jsx",
 					"semi_transient": false,
 					"settings":
@@ -998,7 +1118,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

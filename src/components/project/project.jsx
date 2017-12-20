@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; 
 import styles from './project.module.css';
 import ProgressiveImage from 'react-progressive-image';
-// import downArrowImage from '../../assets/svgs/arrow.svg';
 
 export default class Project extends Component {
 
@@ -10,12 +9,6 @@ export default class Project extends Component {
     super(props);
     this.imageLoaded = false;
     this.traveled = 0;
-  }
-
-  setImageHeight() {
-    this.image.onload = () => {
-      this.imageLoaded = true;
-    }
   }
 
   handleTravel() {
@@ -62,13 +55,9 @@ export default class Project extends Component {
             {
               (src, loading) => {
               const hasClass = loading ? styles.loadingImg : styles.loadedImg;
-              if (!loading) {
-                this.setImageHeight();
-              }
               return <img 
                 ref={(img) => this.image = img} 
                 onClick={() => this.handleClick()}
-                /*onMouseLeave={() => this.handleMouseLeave()}*/
                 className={hasClass} 
                 src={src} 
                 alt={`Screenshot of ${project.name} web page`} />;

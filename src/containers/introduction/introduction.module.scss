@@ -98,8 +98,9 @@
   padding: 0 0 15px;
   display: block;
   text-decoration: none;
+  transform: translate3D(0, 0, 0);
   &:hover {
-    transform: translateX(25px);
+    transform: translate3D(25px, 0, 0);
   }
 }
 

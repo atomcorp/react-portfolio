@@ -79,9 +79,10 @@
   transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   padding: 0 0 15px;
   display: block;
-  text-decoration: none; }
+  text-decoration: none;
+  transform: translate3D(0, 0, 0); }
   .link:hover {
-    transform: translateX(25px); }
+    transform: translate3D(25px, 0, 0); }
 
 @keyframes slideRight {
   from {

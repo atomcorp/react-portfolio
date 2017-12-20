@@ -12,3 +12,21 @@ $desktop-width: 1200px;
     @content;
   }
 }
+
+@mixin page {
+  padding: 30px;
+  max-width: 1500px;
+  margin: 0 auto;
+  @include tablet {
+    padding: 60px;
+  }
+}
+
+@mixin heading {
+  border-top: 1px solid;
+  padding: 0 0 120px;
+  h2 {
+    font-size: 4rem;
+    margin: 0;
+  }
+}

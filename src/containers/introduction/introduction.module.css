@@ -7,8 +7,11 @@
   overflow: hidden; }
 
 .content {
-  padding: 60px; }
+  padding: 30px; }
   @media (min-width: 768px) {
+    .content {
+      padding: 60px; } }
+  @media (min-width: 1200px) {
     .content {
       position: relative;
       width: 100%;
@@ -26,7 +29,7 @@
 
 .title {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   padding: 0 0 60px; }
   .title h1 {
@@ -45,12 +48,12 @@
 .introduction {
   font-weight: 700;
   padding: 0 0 60px; }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .introduction {
       padding: 0; } }
   .introduction h2 {
     margin: 0;
-    font-size: 1.5rem; }
+    font-size: 2rem; }
     @media (min-width: 768px) {
       .introduction h2 {
         font-size: 3rem; } }
@@ -66,10 +69,10 @@
   font-weight: 700; }
   @media (min-width: 768px) {
     .links {
-      padding: 0 0 0 30px;
       font-size: 3rem; } }
   @media (min-width: 1200px) {
     .links {
+      padding: 0 0 0 30px;
       font-size: 4rem; } }
   .links.animate {
     opacity: 0;
@@ -80,9 +83,9 @@
   padding: 0 0 15px;
   display: block;
   text-decoration: none;
-  transform: translate3D(0, 0, 0); }
+  transform: translate3d(0, 0, 0); }
   .link:hover {
-    transform: translate3D(25px, 0, 0); }
+    transform: translate3d(25px, 0, 0); }
 
 @keyframes slideRight {
   from {

@@ -2,21 +2,26 @@
 
 .project {
   padding: 0 0 120px;
-  @include tablet {
-    display: flex;
+  display: flex;
+  flex-direction: column-reverse;
+  @include desktop {
     align-items: flex-start;
     padding: 0 0 240px;
   }
 }
 
 .notReversed {
-  flex-direction: row;
+  @include desktop {
+    flex-direction: row;
+  }
 }
 
 .reversed {
-  flex-direction: row-reverse;
+  @include desktop {
+    flex-direction: row-reverse;
+  }
   .copy {
-    @include tablet {
+    @include desktop {
       padding: 0 0 0 60px;
     }
   }
@@ -32,11 +37,18 @@
 .image {
   border: 15px solid #fff;
   position: relative;
+  max-height: 400px;
+  overflow-y: hidden;
+  margin: 0 0 30px;
   @include tablet {
     width: 100%;
-    max-width: 760px;
     max-height: 600px;
-    overflow-y: hidden;
+    
+  }
+  @include desktop {
+    max-width: 760px;
+    margin: 0;
+
   }
   &:hover {
     .encourage {
@@ -65,9 +77,10 @@
   font-weight: 700;
   padding: 0 0 30px;
   text-decoration: none;
-  display: block;
+  display: inline-block;
+  transform: translate3d(0, 0, 0);
   &:hover {
-    transform: translateX(25px);
+    transform: translate3d(25px, 0, 0);
   }
 }
 

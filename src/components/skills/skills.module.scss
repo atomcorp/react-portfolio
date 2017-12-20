@@ -1,24 +1,22 @@
+@import "../../mixins";
+
 .page {
-  padding: 60px;
-  max-width: 1500px;
-  margin: 0 auto;
+  @include page();
 }
 
 .heading {
-  border-top: 1px solid;
-  padding: 0 0 120px;
-  h2 {
-    font-size: 4rem;
-    margin: 0;
-  }
+  @include heading();
 }
 
 .skills {
-  display: grid;
-  grid-template-columns: repeat(2, calc(50% - 30px));
-  grid-template-rows: auto;
-  grid-column-gap: 60px;
-  grid-row-gap: 120px;
+  @include desktop {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 30px));
+    grid-template-rows: auto;
+    grid-column-gap: 60px;
+    grid-row-gap: 120px;
+  }
+  
 }
 
 .skill {

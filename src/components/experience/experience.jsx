@@ -14,6 +14,7 @@ export default function Experience(props) {
 
   return (
     <section>
+      <a name="experience"></a>
       <div className={ styles.page }>
         <div className={styles.heading}>
           <h2>Experience</h2>

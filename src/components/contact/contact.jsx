@@ -13,7 +13,7 @@ export default function Contact() {
             <h3>{ contact.name }</h3>
           </div>
           <div className={ styles.detail }>
-            <a href={ linkPrefix + ':' + contact.detail }>{ contact.detail }</a>
+            <a href={ `${linkPrefix}:${contact.detail}` }>{ contact.detail }</a>
           </div>
         </div>
       );
@@ -22,13 +22,16 @@ export default function Contact() {
   }
 
   return (
-    <div className={ styles.page }>
-      <div className={ styles.heading }>
-        <h2>Contact</h2>
+    <section>
+      <a name="contact"></a>
+      <div className={ styles.page }>
+        <div className={ styles.heading }>
+          <h2>Contact</h2>
+        </div>
+        <div className={ styles.content }>
+          { returnContact() }        
+        </div>
       </div>
-      <div className={ styles.content }>
-        { returnContact() }        
-      </div>
-    </div>
+    </section>
   )
 }

@@ -4,28 +4,30 @@ import { content } from '../../content.js';
 
 export default function Contact() {
 
+  function returnContact() {
+    const paragraphs = content.contact.map((contact, id) => {
+      const linkPrefix = contact.name === 'Email' ? 'mailto' : 'tel';
+      return (
+        <div key={ id } className={ styles.contact }>
+          <div className={ styles.name }>
+            <h3>{ contact.name }</h3>
+          </div>
+          <div className={ styles.detail }>
+            <a href={ linkPrefix + ':' + contact.detail }>{ contact.detail }</a>
+          </div>
+        </div>
+      );
+    });
+    return paragraphs;
+  }
+
   return (
     <div className={ styles.page }>
       <div className={ styles.heading }>
         <h2>Contact</h2>
       </div>
       <div className={ styles.content }>
-        <div className={ styles.contact }>
-          <div className={ styles.name }>
-            <h3>Email</h3>
-          </div>
-          <div className={ styles.detail }>
-            faotms@gmail.com
-          </div>
-        </div>
-        <div className={ styles.contact }>
-          <div className={ styles.name }>
-            <h3>Phone</h3>
-          </div>
-          <div className={ styles.detail }>
-            07800821737
-          </div>
-        </div>
+        { returnContact() }        
       </div>
     </div>
   )

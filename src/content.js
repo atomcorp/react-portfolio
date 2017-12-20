@@ -107,5 +107,15 @@ export const content = {
         "I have solid practical experience of the language, using a PHP-based CMS API to help build templates, and more recently Twig to similar effect."
         ]
     },
+  ],
+  "contact": [
+    {
+      "name": "Email",
+      "detail": "faotms@gmail.com"
+    },
+    {
+      "name": "Phone",
+      "detail": "07800821737"
+    }
   ]
 }

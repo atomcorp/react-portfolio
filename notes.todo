@@ -1,2 +1,5 @@
 H M M :
-  ☐ make the hover a click instead?
+  ✔ make the hover a click instead? @done (17-12-21 00:00)
+  ☐ compress images
+  ☐ give links an outer div so they don't flicker when being hovered over
+  ☐ more grown up arrow?

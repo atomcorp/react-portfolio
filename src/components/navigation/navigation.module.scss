@@ -1,5 +1,4 @@
 .navigation {
-  padding: 0 0 60px;
   display: flex;
   justify-content: flex-end;
   font-weight: 700;
@@ -11,12 +10,13 @@
 
 .link {
   padding: 0 0 0 15px;
+  color: #333;
 }
 
 .active {
-
+  display: none;
 }
 
 .inactive {
-  display: none;
+  
 }

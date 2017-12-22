@@ -104,7 +104,7 @@
   transition: transform 2s cubic-bezier(0.23, 1, 0.32, 1);
   &:hover {
     cursor: s-resize;
-    cursor: url(../../assets/svgs/arrow-mod.svg), s-resize;
+    cursor: url(../../assets/svgs/point.svg), s-resize;
   }
 }
 

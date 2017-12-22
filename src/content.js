@@ -41,19 +41,19 @@ export const content = {
   "links": [
     {
       "title": "Projects",
-      "path": "projects"
+      "path": "/projects"
     },
     {
       "title": "Experience",
-      "path": "experience"
+      "path": "/experience"
     },
     {
       "title": "Skills",
-      "path": "skills"
+      "path": "/skills"
     },
     {
       "title": "Contact",
-      "path": "contact"
+      "path": "/contact"
     }
   ],
   "experience": [

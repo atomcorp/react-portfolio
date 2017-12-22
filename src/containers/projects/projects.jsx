@@ -7,10 +7,9 @@ import { content } from '../../content.js';
 export default class Projects extends Component {
 
   returnProjects() {
-    let id = 0;
-    const projects = content.projects.map((project) => {
+    const projects = content.projects.map((project, id) => {
       const isReversed = id % 2 > 0 ? 'reversed' : 'notReversed';
-      return <Project key={id++} project={ project } reverse={ isReversed }></Project>;
+      return <Project key={id} project={ project } reverse={ isReversed }></Project>;
     });
     return projects;
   }

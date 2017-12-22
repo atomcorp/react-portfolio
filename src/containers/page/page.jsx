@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 
+import Header from '../../components/header/header.jsx';
+
 export default class Page extends Component {
+
+  constructor(props) {
+    super(props);
+    console.log(this.props);
+  }
 
   render() {
     return (
       <section className="router">
+        <Header />
         { this.props.children }
-        <div>footer</div>
       </section>
     );
   }

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"column",
+				"column-reverse"
+			],
+			[
 				"hover",
 				"hovering"
 			],
@@ -62,10 +70,6 @@
 			[
 				"menu",
 				"menuOpen"
-			],
-			[
-				"flex",
-				"flex-wrap"
 			],
 			[
 				"font-s",
@@ -236,95 +240,21 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/project/project.jsx",
-			"settings":
-			{
-				"buffer_size": 2256,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/project/project.module.scss",
-			"settings":
-			{
-				"buffer_size": 2850,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"#fffff\" height=\"24\" viewBox=\"0 0 55.66 54.83\" width=\"24\">\n    <path d=\"M0 0h24v24H0V0z\" fill=\"none\"/>\n    <path d=\"M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z\" fill=\"#fff\"/>\n</svg>",
-			"file": "src/assets/svgs/arrow.svg",
-			"file_size": 242,
-			"file_write_time": 131575896109803560,
-			"settings":
-			{
-				"buffer_size": 245,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/assets/svgs/arrow-mod.svg",
-			"settings":
-			{
-				"buffer_size": 328,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/skills/skills.jsx",
-			"settings":
-			{
-				"buffer_size": 850,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/containers/projects/projects.jsx",
-			"settings":
-			{
-				"buffer_size": 910,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/App.js",
-			"settings":
-			{
-				"buffer_size": 418,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/containers/introduction/introduction.jsx",
-			"settings":
-			{
-				"buffer_size": 1425,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/containers/home/home.jsx",
 			"settings":
 			{
-				"buffer_size": 496,
+				"buffer_size": 1303,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/components/experience/experience.jsx",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 854,
+				"buffer_size": 119,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -494,40 +424,42 @@
 		"/C/Users/atom/sites/portfolio-react/public",
 		"/C/Users/atom/sites/portfolio-react/src",
 		"/C/Users/atom/sites/portfolio-react/src/assets",
-		"/C/Users/atom/sites/portfolio-react/src/assets/svgs",
 		"/C/Users/atom/sites/portfolio-react/src/components",
-		"/C/Users/atom/sites/portfolio-react/src/components/project",
-		"/C/Users/atom/sites/portfolio-react/src/components/skills",
+		"/C/Users/atom/sites/portfolio-react/src/components/contact",
 		"/C/Users/atom/sites/portfolio-react/src/containers",
-		"/C/Users/atom/sites/portfolio-react/src/containers/home",
-		"/C/Users/atom/sites/portfolio-react/src/containers/introduction"
+		"/C/Users/atom/sites/portfolio-react/src/containers/home"
 	],
 	"file_history":
 	[
-		"/C/Users/atom/sites/portfolio-react/src/App.js",
-		"/C/Users/atom/sites/portfolio-react/src/containers/home/home.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/containers/page/home.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/components/project/project.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.scss",
-		"/C/Users/atom/sites/portfolio-react/src/assets/svgs/arrow.svg",
-		"/C/Users/atom/sites/portfolio-react/src/assets/clip-masks/arrow.svg",
-		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.scss",
+		"/C/Users/atom/sites/portfolio-react/notes.todo",
+		"/C/Users/atom/sites/portfolio-react/src/containers/page/page.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/contact/contact.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/content.js",
 		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/containers/home/home.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/App.js",
+		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/components/skills/skills.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/components/experience/experience.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/experience/experience.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/contact/contact.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/_mixins.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/skills/skills.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.module.scss",
+		"/C/Users/atom/sites/portfolio-react/src/components/project/project.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/assets/svgs/arrow.svg",
+		"/C/Users/atom/sites/portfolio-react/src/assets/svgs/arrow-mod.svg",
+		"/C/Users/atom/sites/portfolio-react/src/containers/page/home.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/assets/clip-masks/arrow.svg",
+		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.module.scss",
-		"/C/Users/atom/sites/portfolio-react/notes.todo",
-		"/C/Users/atom/sites/portfolio-react/src/content.js",
-		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/index.css",
 		"/C/Users/atom/sites/portfolio-react/src/components/blob/blob.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/components/blob/blob.module.scss",
-		"/C/Users/atom/sites/portfolio-react/src/components/skills/skills.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/assets/clip-masks/blob-1.svg",
-		"/C/Users/atom/sites/portfolio-react/src/components/experience/experience.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/components/project--page/project--page.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.css",
 		"/C/Users/atom/sites/portfolio-react/src/component/project/project.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/component/project/project.scss",
@@ -535,7 +467,6 @@
 		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.css",
 		"/C/Users/atom/AppData/Local/Temp/flow/flowlib_f46dbc8/react.js",
 		"/C/Users/atom/sites/portfolio-react/package.json",
-		"/C/Users/atom/sites/portfolio-react/src/_mixins.scss",
 		"/C/Users/atom/sites/portfolio-react/.gitignore",
 		"/C/Users/atom/sites/portfolio-react/src/styles/index.module.css",
 		"/C/Users/atom/sites/portfolio-react/public/index.html",
@@ -627,15 +558,11 @@
 		"/C/Users/atom/sites/test/test-react-pp/README.md",
 		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/User/FlowType.sublime-settings",
 		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/Flow/Flow.sublime-settings",
-		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/FlowType/FlowType.sublime-settings",
-		"/C/Users/atom/sites/test/test-react-pp/src/components/predictions-result.jsx",
-		"/C/Users/atom/sites/test/test-react-pp/src/xhr-requests/get-user.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/make-cancelable.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/xhr-requests/get-fixtures.js"
+		"/C/Users/atom/AppData/Roaming/Sublime Text 3/Packages/FlowType/FlowType.sublime-settings"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -667,6 +594,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
+			"max-width: 760px;",
+			"h2",
+			"translate3",
 			"imageLoaded",
 			"setImageHeight",
 			"speed",
@@ -790,11 +721,7 @@
 			"checkAllPredictions",
 			"predictions-result",
 			"id",
-			"this",
-			"ensurePositiveNumber",
-			"result",
-			"onChange",
-			"onFixtureChange"
+			"this"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -812,24 +739,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/project/project.jsx",
+					"file": "src/containers/home/home.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2256,
+						"buffer_size": 1303,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								769,
+								769
 							]
 						],
 						"settings":
@@ -838,66 +765,6 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/components/project/project.module.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2850,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1955,
-								1955
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2436.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/assets/svgs/arrow.svg",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								108,
-								147
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -907,26 +774,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/assets/svgs/arrow-mod.svg",
+					"buffer": 1,
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 328,
+						"buffer_size": 119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								119,
+								119
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax"
+							"syntax": "Packages/MarkdownLight/MarkdownLight.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -934,199 +803,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/components/skills/skills.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 850,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								121,
-								121
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/containers/projects/projects.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 910,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								195,
-								195
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/App.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 418,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/containers/introduction/introduction.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								380,
-								380
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/containers/home/home.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/components/experience/experience.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 854,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1175,7 +858,7 @@
 	"project": "portfolio-react.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":

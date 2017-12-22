@@ -12,8 +12,8 @@ export default class Page extends Component {
   render() {
     return (
       <section className="router">
-        <Header />
         { this.props.children }
+        <Header />
       </section>
     );
   }

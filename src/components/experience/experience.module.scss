@@ -36,17 +36,23 @@
   }
   a {
     text-decoration: none;
-    transform: translate3d(0, 0, 0);
-    transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-    display: inline-block;
+    span {
+      display: inline-block;
+      transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), color 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+      transform: translate3d(0, 0, 0);
+    }
     @include tablet {
       &:hover {
-        transform: translate3d(25px, 0, 0);
+        span {
+          transform: translate3d(25px, 0, 0);
+        }
       }
     }
     @include desktop {
       &:hover {
-        transform: translate3d(-25px, 0, 0);
+        span {
+          transform: translate3d(-25px, 0, 0);
+        }
       }
     }
   }

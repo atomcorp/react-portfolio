@@ -24,7 +24,9 @@ export default class Introduction extends Component<Props> {
     const links = content.links.map((link) => {
       return (
         <Link key={link.path} to={link.path} className={styles.link}>
-          { link.title }
+          <span>
+            { link.title }
+          </span>
         </Link>
       );
     })

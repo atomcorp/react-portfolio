@@ -23,7 +23,7 @@ export default function Experience(props) {
             { returnParagraphs() }
           </div>
           <div className={ styles.link }>
-            <a href={ content.github }>View my Github</a>
+            <a href={ content.github }><span>View my Github</span></a>
           </div>
         </div>
       </div>

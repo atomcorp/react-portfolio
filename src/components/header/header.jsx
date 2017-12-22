@@ -7,7 +7,7 @@ import { content } from '../../content.js';
 export default function Header(props) {
 
   return (
-    <section>
+    <header>
       <div className={ styles.header }>
         <div className="site">
           <Link to={'/'} className={styles.title}>
@@ -16,6 +16,6 @@ export default function Header(props) {
         </div>
         <Navigation />
       </div>
-    </section>
+    </header>
   );
 }

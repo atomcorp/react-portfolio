@@ -65,15 +65,20 @@
 }
 
 .link {
-  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), color 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   font-size: 2rem;
   font-weight: 700;
   padding: 0 0 30px;
   text-decoration: none;
   display: inline-block;
-  transform: translate3d(0, 0, 0);
+  span {
+    display: inline-block;
+    transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), color 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    transform: translate3d(0, 0, 0);
+  }
   &:hover {
-    transform: translate3d(25px, 0, 0);
+    span {
+      transform: translate3d(25px, 0, 0);
+    }
   }
 }
 

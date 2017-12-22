@@ -13,7 +13,9 @@ export default function Contact() {
             <h3>{ contact.name }</h3>
           </div>
           <div className={ styles.detail }>
-            <a href={ `${linkPrefix}:${contact.detail}` }>{ contact.detail }</a>
+            <a href={ `${linkPrefix}:${contact.detail}` }>
+              <span>{ contact.detail }</span>
+            </a>
           </div>
         </div>
       );

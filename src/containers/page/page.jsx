@@ -11,9 +11,9 @@ export default class Page extends Component {
 
   render() {
     return (
-      <section className="router">
-        { this.props.children }
+      <section className="page">
         <Header />
+        { this.props.children }
       </section>
     );
   }

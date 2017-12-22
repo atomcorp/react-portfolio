@@ -47,7 +47,7 @@ export default class Project extends Component {
             { project.brief }
           </div>
           <Link to={ project.link } className={styles.link}>
-            View
+            <span>View</span>
           </Link>
         </div>
         <div className={styles.image}>

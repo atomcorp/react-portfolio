@@ -10,7 +10,10 @@
 
 .link {
   padding: 0 0 0 15px;
-  color: #333;
+  color: #b6b6bc;
+  &:hover {
+    color: #333;
+  }
 }
 
 .active {

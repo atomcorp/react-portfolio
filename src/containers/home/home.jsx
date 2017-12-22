@@ -35,7 +35,7 @@ export default class Home extends Component {
     
     return (
       <BrowserRouter>
-        <section className="router">
+        <section className="home">
           <Route exact path="/" component={ Introduction }/>
           { this.returnPages() }
         </section>

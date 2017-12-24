@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './containers/home/home.jsx';
+import Routes from './containers/routes/routes.jsx';
 
 class App extends Component {
 
   render() {
     return (
       <section>
-        <Home />
+        <Routes />
       </section>
     );
   }

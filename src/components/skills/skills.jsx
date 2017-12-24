@@ -3,7 +3,7 @@ import styles from './skills.module.css';
 import { content } from '../../content.js';
 // import Navigation from '../navigation/navigation.jsx';
 
-export default function(props) {
+export default function Skills(props) {
 
   function returnSkill() {
     const skills = content.skills.map((skill, id) => {

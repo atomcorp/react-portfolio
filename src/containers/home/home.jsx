@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Introduction from '../introduction/introduction.jsx';
 import Projects from '../projects/projects.jsx';
 import Experience from '../../components/experience/experience.jsx';
 import Skills from '../../components/skills/skills.jsx';
 import Contact from '../../components/contact/contact.jsx';
 import Page from '../page/page.jsx';
-import { BrowserRouter, Route } from 'react-router-dom';
 
 export default class Home extends Component {
+
+  constructor(props) {
+    super(props);
+    this.returnPages = this.returnPages.bind(this);
+    this.returnSections = this.returnSections.bind(this);
+  }
 
   returnSections() {
     const sections = [

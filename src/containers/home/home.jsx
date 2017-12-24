@@ -27,9 +27,9 @@ export default class Home extends Component {
 
   returnPages() {
     const sections = this.returnSections();
-    const pages = sections.map((section, id) => {
+    const pages = sections.map((section) => {
       return (
-        <Route key={ id } exact path={ section.path } render={
+        <Route key={ section.path } exact path={ section.path } render={
           () => <Page> { section.component } </Page>
         } />
       );

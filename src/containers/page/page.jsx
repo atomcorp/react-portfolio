@@ -8,12 +8,7 @@ export default class Page extends Component {
     this.loaded = false;
   }
 
-  componentWillMount() {
-    console.log(this.page);
-  }
-
   render() {
-    console.log('Run')
     return (
       <section>
         <Header />

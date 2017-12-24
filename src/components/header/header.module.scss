@@ -1,5 +1,18 @@
 @import "../../mixins";
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: background 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  &:hover {
+    background: #F5F5F5;
+    .title, a {
+      color: #333;
+    }
+  }
+}
+
 .header {
   padding: 15px;
   max-width: 1500px;
@@ -16,8 +29,6 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #b6b6bc;
-  &:hover {
-    color: #333;
-  }
+
   
 }

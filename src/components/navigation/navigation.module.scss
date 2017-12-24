@@ -9,15 +9,16 @@
 }
 
 .link {
-  padding: 0 0 0 15px;
+  margin: 0 0 0 15px;
   color: #b6b6bc;
   &:hover {
     color: #333;
+    border-bottom: 2px solid;
   }
 }
 
 .active {
-  display: none;
+  border-bottom: 2px solid;
 }
 
 .inactive {

@@ -3,5 +3,6 @@ H M M :
   ✔ compress images @done (17-12-24 15:28)
   ✔ give links an outer div so they don't flicker when being hovered over @done (17-12-24 15:28)
   ✔ more grown up arrow? @done (17-12-24 15:28)
-  ☐ mobile nav
+  ✔ mobile nav @done (17-12-27 18:24)
   ☐ footer
+  ☐ Mobile - tap to scroll promp (temp) use state

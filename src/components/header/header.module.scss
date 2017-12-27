@@ -1,9 +1,6 @@
 @import "../../mixins";
 
 header {
-  position: sticky;
-  top: 0;
-  z-index: 1;
   transition: background 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   &:hover {
     background: #F5F5F5;
@@ -11,10 +8,18 @@ header {
       color: #333;
     }
   }
+  @include tablet {
+    position: sticky;
+    top: 100%;
+    transform: translate3d(0, -100%, 0);
+    z-index: 1;
+    top: 0;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .header {
-  padding: 15px;
+  padding: 30px;
   max-width: 1500px;
   margin: 0 auto;
   @include tablet {
@@ -29,6 +34,9 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   color: #b6b6bc;
-
-  
+  margin: 0 0 30px;
+  display: block;
+  @include tablet {
+    margin: 0;
+  }
 }

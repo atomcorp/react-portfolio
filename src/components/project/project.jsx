@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'; 
 import styles from './project.module.css';
 import ProgressiveImage from 'react-progressive-image';
 
@@ -46,9 +45,9 @@ export default class Project extends Component {
           <div className={styles.brief}>
             { project.brief }
           </div>
-          <Link to={ project.link } className={styles.link}>
+          <a href={ project.link } className={styles.link}>
             <span>View</span>
-          </Link>
+          </a>
         </div>
         <div className={styles.image}>
           <ProgressiveImage src={largeImage} placeholder={smallImage}>
@@ -64,12 +63,6 @@ export default class Project extends Component {
               }
             }
           </ProgressiveImage>
-          {/*
-          <div className={styles.encourage}>
-            <img src={ downArrowImage } alt=""/>
-          </div>
-
-          */}
         </div>
 
       </section>

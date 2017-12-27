@@ -8,6 +8,10 @@ export default class Page extends Component {
     this.loaded = false;
   }
 
+  componentWillMount() {
+    window.scrollTo(0,0);
+  }
+
   render() {
     return (
       <section>

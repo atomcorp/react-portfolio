@@ -11,6 +11,10 @@ type Props = {
 
 export default class Introduction extends Component<Props> {
 
+  componentWillMount() {
+    window.scrollTo(0,0);
+  }
+
   returnFirstAnimation() {
     let animate = '';
     if (!sessionStorage.getItem('firstRun')) {

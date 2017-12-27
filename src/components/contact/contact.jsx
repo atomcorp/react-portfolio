@@ -9,9 +9,6 @@ export default function Contact() {
       const linkPrefix = contact.name === 'Email' ? 'mailto' : 'tel';
       return (
         <div key={ id } className={ styles.contact }>
-          <div className={ styles.name }>
-            <h3>{ contact.name }</h3>
-          </div>
           <div className={ styles.detail }>
             <a href={ `${linkPrefix}:${contact.detail}` }>
               <span>{ contact.detail }</span>

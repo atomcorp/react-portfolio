@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Project from '../../components/project/project.jsx';
+import Project from '../../containers/project/project.jsx';
 import styles from './projects.module.css';
 import { content } from '../../content.js';
 // import Navigation from '../../components/navigation/navigation.jsx';

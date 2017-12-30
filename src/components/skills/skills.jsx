@@ -11,14 +11,14 @@ export default function Skills(props) {
         return <p key={ id }>{ paragraph }</p>;
       });
       return (
-        <div key={skill.name} className={styles.skill + ` ${styles.skill}${skill.name}`}>
+        <article key={skill.name} className={styles.skill + ` ${styles.skill}${skill.name}`}>
           <div className={styles.name}>
             <h3>{skill.name}</h3>
           </div>
           <div className={styles.detail}>
             { paragraphs }
           </div>
-        </div>
+        </article>
       );
     });
     return skills;

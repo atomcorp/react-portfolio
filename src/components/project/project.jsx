@@ -66,7 +66,7 @@ export default class Project extends Component {
     const screenIsBig = document.querySelector('body').clientWidth >= 768 ? true : false;
     const project = this.props.project;
     return (
-      <section className={styles.project + ' ' + styles[this.props.reverse]}>
+      <article className={styles.project + ' ' + styles[this.props.reverse]}>
         <div className={styles.copy}>
           { screenIsBig ? this.returnTitle(project) : this.returnImage(project) }
           <div className={styles.brief}>
@@ -77,8 +77,7 @@ export default class Project extends Component {
           </a>
         </div>
         { screenIsBig ? this.returnImage(project) : this.returnTitle(project) }
-
-      </section>
+      </article>
     );
   }
   

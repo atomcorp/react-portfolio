@@ -1,0 +1,8 @@
+@import "../../mixins";
+
+.footer {
+  padding: 30px;
+  @include desktop {
+    text-align: center;
+  }
+}

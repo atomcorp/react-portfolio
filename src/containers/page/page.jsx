@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../../components/header/header.jsx';
+import Footer from '../../components/footer/footer.jsx';
 
 export default class Page extends Component {
 
@@ -17,6 +18,7 @@ export default class Page extends Component {
       <section>
         <Header />
         { this.props.children }
+        <Footer />
       </section>
     );
   }

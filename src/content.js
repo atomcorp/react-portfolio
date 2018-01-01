@@ -4,7 +4,7 @@ export const content = {
   "projects": [
     {
       "name": "Cambridge Audio",
-      "brief": "I’ve been responsible for the majority of the global hi-fi brand’s front-end development for the last two years.",
+      "brief": "I’ve been fortunate to have been responsible for the majority of the global hi-fi brand’s front-end development for over two years.",
       "image": "/cambridge/cambridge-full.jpg",
       "small-image": "/cambridge/cambridge-tiny.jpg",
       "link": "https://www.cambridgeaudio.com/"
@@ -57,8 +57,8 @@ export const content = {
     }
   ],
   "experience": [
-    "I’m a self-taught developer and I began learning web design during an online module for my journalism degree. As I progressed I found freelance work for people and organisations such as a charity, a fashion designer and a business run by Hollyoaks actors (true story). I gained valuable insight into focusing on the core problems and aspirations a stakeholder wanted to address and delivering a successful project.",
-    "In my first professional role I was fortunate enough to join the hi-fi brand Cambridge Audio, as a junior front-end developer in a small team. Initially it was great exposure writing production code on a daily basis and building a relationship up with the meticulous in-house design team. As my role grew I became responsible for the front-end of a variety of the businesses websites, from the consumer-facing one to a b2b platform, helping design certain parts of the site following the brand guidelines.",
+    "I’m a self-taught developer, initially finding freelance work for people and organisations such as a charity, a fashion designer and a business run by Hollyoaks actors (true story). It was a valuable insight on the need to focus on the core aspirations of the stakeholder.",
+    "In my first professional role I joined the hi-fi brand Cambridge Audio, as a junior front-end developer. Initially it was great exposure writing production code on a daily basis and building a relationship up with the meticulous in-house design team. As my role grew I became responsible for the front-end of a variety of the businesses websites, from the consumer-facing one to a b2b platform, helping design certain parts of the site following the brand guidelines.",
     "The aspect I’m most proud of however is I feel I have had a positive impact on the businesses coding practises, from introducing task runners into our workflow, moving the codebase from a jQuery dependency to Vanilla/ES6 JS, championing BEM in our CSS, and initiating a more UX focused design process such as integrating user tests."
   ],
   "github": 'https://github.com/atomcorp',
@@ -66,21 +66,21 @@ export const content = {
     {
       "name": "JS",
       "detail": [
-        "Given its ever increasing importance and my enjoyment using it, I’ve focused a lot of personal development on being able to write clean, contemporary JS. I’m experienced and comfortable writing modern ES6/2015 as well as prior standards, I use design patterns to promote predictable, readable code and research ways to improve performance. ",
-        "The versatility of JS has allowed me to gain a wide experience in coding. As a front-end developer for a consumer brand, simply due to exposure I feel my most valuable expertise with JS is producing performant, powerful visual effects and interactions. However I’ve also progressed significantly with more application orientated structures such as handling state and data. ",
-        "Although I haven’t had the professional opportunity to use React, I’ve experimented on personal projects and have found it a really conducive to a productive workflow. I’m similarly excited by other popular frameworks such as Angular and Vue, and feel I have a strong foundation to be using them professionally."
+        "Given its ever increasing importance and my enjoyment using it, I’ve focused a lot of personal development on being able to write clean, contemporary JS. I’m experienced and comfortable writing ES6/2015, I practice design patterns to promote predictable, readable code and I’m always looking to boost efficiency and performance. ",
+        "The versatility of JS has allowed me to gain a wide experience in coding. As a front-end developer for a consumer brand I’ve benefited enormously from needing to write performant, powerful visual effects and interactions. However I’ve also been required extend my knowledge of application orientated structures such as handling state and APIs. ",
+        "Although I haven’t had the professional opportunity to use React, I’ve experimented on personal projects and have found it a really conducive to a productive workflow. It’s just one of the many exciting areas of JS I’m interested in, in the near future I plan to focus becoming much more familiar with functional-style JS, testing and reactive programming."
       ]
     },
     {
       "name": "CSS",
       "detail": [
-        "I’m a big fan of using BEM and SASS to help structure the codebase, especially with the assistance of CSS Modules. Additions such as transform, transitions/keyframes, flex and grid have made CSS really rewarding to work with, and I’m really encouraged by the future of the spec."
+        "I’m a big fan of using BEM and SASS to help structure the codebase, and have recently found CSS Modules to be a fantastic tool. Additions such as transform, transitions/keyframes, flex and grid have made CSS really rewarding to work with, and I’m really encouraged by the future of the spec."
         ]
     },
     {
       "name": "HTML",
       "detail": [
-        "I’m well versed creating easy to manage structures that make semantic sense and facilitate maintainable dependency with styling and logic. I’ve been exposed to a broad range of HTML5 and webAPIs, like canvas, svg, video, requestAnimationFrame (I love this) and history."
+        "I’m well versed creating easy to manage structures that make semantic sense and facilitate maintainable connections with styling and logic. I’ve been exposed to a broad range of HTML5 and webAPIs, like canvas, svg, video, requestAnimationFrame (I love this) and history."
         ]
     },
     {

@@ -20,6 +20,7 @@
   color: #b6b6bc;
   @include tablet {
     margin: 0 0 0 15px;
+      border-bottom: 2px solid transparent;
     &:hover {
       color: #333;
       border-bottom: 2px solid;

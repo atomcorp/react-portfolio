@@ -28,7 +28,7 @@ export const content = {
       "brief": "A small, personal project to experiment with AngularJs (v1), listing my favourite music from 2015.",
       "image": "/10-2015/10-2015-full.jpg",
       "small-image": "/10-2015/10-2015-tiny.jpg",
-      "link": "https://atomcorp.github.io/throughthewireframe/"
+      "link": ""
     },
     {
       "name": "Through the Wireframe",

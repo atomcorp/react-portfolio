@@ -72,9 +72,13 @@ export default class Project extends Component {
           <div className={styles.brief}>
             { project.brief }
           </div>
-          <a href={ project.link } className={styles.link}>
-            <span>View</span>
-          </a>
+          {
+            project.link ? (
+              <a href={ project.link } className={styles.link}>
+                <span>View</span>
+              </a>
+            ) : ''
+          }
         </div>
         { screenIsBig ? this.returnImage(project) : this.returnTitle(project) }
       </article>

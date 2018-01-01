@@ -244,19 +244,28 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/navigation/navigation.module.scss",
+			"file": "src/content.js",
 			"settings":
 			{
-				"buffer_size": 554,
+				"buffer_size": 6418,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "notes.todo",
+			"file": "firebase.json",
 			"settings":
 			{
-				"buffer_size": 376,
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/containers/project/project.jsx",
+			"settings":
+			{
+				"buffer_size": 2476,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -402,7 +411,7 @@
 				"CodeFormatter: Format Code"
 			]
 		],
-		"width": 480.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -427,15 +436,18 @@
 		"/C/Users/atom/sites/portfolio-react",
 		"/C/Users/atom/sites/portfolio-react/public",
 		"/C/Users/atom/sites/portfolio-react/src",
-		"/C/Users/atom/sites/portfolio-react/src/assets",
-		"/C/Users/atom/sites/portfolio-react/src/assets/svgs",
-		"/C/Users/atom/sites/portfolio-react/src/components",
-		"/C/Users/atom/sites/portfolio-react/src/components/navigation",
-		"/C/Users/atom/sites/portfolio-react/src/containers"
+		"/C/Users/atom/sites/portfolio-react/src/containers",
+		"/C/Users/atom/sites/portfolio-react/src/containers/project"
 	],
 	"file_history":
 	[
+		"/C/Users/atom/sites/10-2015/firebase.json",
+		"/C/Users/atom/sites/10-2015/.firebaserc",
+		"/C/Users/atom/sites/portfolio-react/src/content.js",
+		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.jsx",
+		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/containers/routes/routes.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/containers/page/page.jsx",
 		"/C/Users/atom/sites/portfolio-react/notes.todo",
@@ -450,10 +462,8 @@
 		"/C/Users/atom/sites/portfolio-react/src/components/header/header.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/assets/svgs/point.svg",
 		"/C/Users/atom/sites/portfolio-react/src/assets/svgs/arrow-mod.svg",
-		"/C/Users/atom/sites/portfolio-react/src/content.js",
 		"/C/Users/atom/sites/portfolio-react/README.md",
 		"/C/Users/atom/sites/portfolio-react/src/components/contact/contact.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.scss",
@@ -474,7 +484,6 @@
 		"/C/Users/atom/sites/portfolio-react/src/components/project/project.module.css",
 		"/C/Users/atom/sites/portfolio-react/src/component/project/project.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/component/project/project.scss",
-		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/containers/introduction/introduction.module.css",
 		"/C/Users/atom/AppData/Local/Temp/flow/flowlib_f46dbc8/react.js",
 		"/C/Users/atom/sites/portfolio-react/package.json",
@@ -559,10 +568,7 @@
 		"/C/Users/atom/sites/test/test-react-pp/package.json",
 		"/C/Users/atom/sites/test/test-react-pp/src/styles/base/_base.scss",
 		"/C/Users/atom/sites/test/test-react-pp/src/styles/index.scss",
-		"/C/Users/atom/sites/test/test-react-pp/src/styles/test.css",
-		"/C/Users/atom/sites/test/test-react-pp/src/components/total-points.js",
-		"/C/Users/atom/sites/test/test-react-pp/src/containers/fixture-list.jsx",
-		"/C/Users/atom/sites/test/test-react-pp/src/components/bootstrap-game.js"
+		"/C/Users/atom/sites/test/test-react-pp/src/styles/test.css"
 	],
 	"find":
 	{
@@ -745,32 +751,61 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/navigation/navigation.module.scss",
+					"file": "src/content.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 554,
+						"buffer_size": 6418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								964,
+								964
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "firebase.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -780,35 +815,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "notes.todo",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "src/containers/project/project.jsx",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 376,
+						"buffer_size": 2476,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								2298,
+								2298
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"plain_tasks_remain_time_phantoms":
-							[
-							],
-							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1512.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -253,6 +253,14 @@
 			}
 		},
 		{
+			"file": ".firebaserc",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "firebase.json",
 			"settings":
 			{
@@ -441,6 +449,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/atom/Life/Work/web/experiments/floatAwayText/floatAwayText.js",
 		"/C/Users/atom/sites/10-2015/firebase.json",
 		"/C/Users/atom/sites/10-2015/.firebaserc",
 		"/C/Users/atom/sites/portfolio-react/src/content.js",
@@ -567,8 +576,7 @@
 		"/C/Users/atom/sites/test/test-react-pp/src/index.js",
 		"/C/Users/atom/sites/test/test-react-pp/package.json",
 		"/C/Users/atom/sites/test/test-react-pp/src/styles/base/_base.scss",
-		"/C/Users/atom/sites/test/test-react-pp/src/styles/index.scss",
-		"/C/Users/atom/sites/test/test-react-pp/src/styles/test.css"
+		"/C/Users/atom/sites/test/test-react-pp/src/styles/index.scss"
 	],
 	"find":
 	{
@@ -751,7 +759,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -782,11 +790,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": ".firebaserc",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "firebase.json",
 					"semi_transient": false,
 					"settings":
@@ -798,8 +835,8 @@
 						"selection":
 						[
 							[
-								45,
-								45
+								44,
+								44
 							]
 						],
 						"settings":
@@ -811,11 +848,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "src/containers/project/project.jsx",
 					"semi_transient": false,
 					"settings":
@@ -842,7 +879,7 @@
 						"translation.y": 1512.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

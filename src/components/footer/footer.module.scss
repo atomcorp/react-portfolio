@@ -2,7 +2,7 @@
 
 .footer {
   padding: 30px;
-  @include desktop {
+  @include tablet {
     text-align: center;
   }
 }

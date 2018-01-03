@@ -244,20 +244,12 @@
 	"buffers":
 	[
 		{
-			"file": "src/content.js",
+			"file": "src/components/footer/footer.module.scss",
 			"settings":
 			{
-				"buffer_size": 6418,
+				"buffer_size": 101,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".firebaserc",
-			"settings":
-			{
-				"buffer_size": 57,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -265,17 +257,7 @@
 			"settings":
 			{
 				"buffer_size": 45,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/containers/project/project.jsx",
-			"settings":
-			{
-				"buffer_size": 2476,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -442,20 +424,22 @@
 	"expanded_folders":
 	[
 		"/C/Users/atom/sites/portfolio-react",
-		"/C/Users/atom/sites/portfolio-react/public",
 		"/C/Users/atom/sites/portfolio-react/src",
-		"/C/Users/atom/sites/portfolio-react/src/containers",
-		"/C/Users/atom/sites/portfolio-react/src/containers/project"
+		"/C/Users/atom/sites/portfolio-react/src/components",
+		"/C/Users/atom/sites/portfolio-react/src/components/footer"
 	],
 	"file_history":
 	[
+		"/C/Users/atom/sites/portfolio-react/src/content.js",
+		"/C/Users/atom/sites/portfolio-react/firebase.json",
+		"/C/Users/atom/sites/portfolio-react/public/index.html",
+		"/C/Users/atom/sites/portfolio-react/build/index.html",
+		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.jsx",
 		"/C/Users/atom/Life/Work/web/experiments/floatAwayText/floatAwayText.js",
 		"/C/Users/atom/sites/10-2015/firebase.json",
 		"/C/Users/atom/sites/10-2015/.firebaserc",
-		"/C/Users/atom/sites/portfolio-react/src/content.js",
 		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/containers/projects/projects.jsx",
-		"/C/Users/atom/sites/portfolio-react/src/containers/project/project.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/components/navigation/navigation.module.scss",
 		"/C/Users/atom/sites/portfolio-react/src/containers/routes/routes.jsx",
 		"/C/Users/atom/sites/portfolio-react/src/containers/page/page.jsx",
@@ -498,7 +482,6 @@
 		"/C/Users/atom/sites/portfolio-react/package.json",
 		"/C/Users/atom/sites/portfolio-react/.gitignore",
 		"/C/Users/atom/sites/portfolio-react/src/styles/index.module.css",
-		"/C/Users/atom/sites/portfolio-react/public/index.html",
 		"/C/Users/atom/sites/portfolio-react/src/styles/Button.module.css",
 		"/C/Users/atom/sites/test/ng-app/src/app/dashboard/dashboard.component.html",
 		"/C/Users/atom/sites/test/ng-app/src/app/hero.service.ts",
@@ -574,13 +557,11 @@
 		"/C/Users/atom/sites/test/test-react-pp/src/index.css",
 		"/C/Users/atom/sites/test/test-react-pp/src/styles/base/_typeography.scss",
 		"/C/Users/atom/sites/test/test-react-pp/src/index.js",
-		"/C/Users/atom/sites/test/test-react-pp/package.json",
-		"/C/Users/atom/sites/test/test-react-pp/src/styles/base/_base.scss",
-		"/C/Users/atom/sites/test/test-react-pp/src/styles/index.scss"
+		"/C/Users/atom/sites/test/test-react-pp/package.json"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 73.0
 	},
 	"find_in_files":
 	{
@@ -759,61 +740,30 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/content.js",
+					"file": "src/components/footer/footer.module.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6418,
+						"buffer_size": 101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								964,
-								964
+								101,
+								101
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".firebaserc",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 57,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40,
-								40
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -823,9 +773,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "firebase.json",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 45,
@@ -835,8 +785,8 @@
 						"selection":
 						[
 							[
-								44,
-								44
+								45,
+								45
 							]
 						],
 						"settings":
@@ -849,37 +799,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/containers/project/project.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2298,
-								2298
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1512.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]

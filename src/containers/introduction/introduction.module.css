@@ -62,7 +62,7 @@
         font-size: 4rem; } }
   .introduction.animate {
     opacity: 0;
-    animation: slideUp 1s 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
+    animation: slideUp 0.5s 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
 
 .links {
   font-size: 2rem;
@@ -79,7 +79,7 @@
       font-size: 4rem; } }
   .links.animate {
     opacity: 0;
-    animation: slideLeft 0.5s 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
+    animation: slideLeft 1s 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; }
 
 .link {
   padding: 0 0 15px;

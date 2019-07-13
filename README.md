@@ -1,3 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+My portfolio circa 2018
 
-**Snip**
+View at [t16h.com](https://t16h.com)

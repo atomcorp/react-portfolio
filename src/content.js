@@ -43,14 +43,14 @@ export const content = {
       "title": "Projects",
       "path": "/projects"
     },
-    {
-      "title": "Experience",
-      "path": "/experience"
-    },
-    {
-      "title": "Skills",
-      "path": "/skills"
-    },
+    // {
+    //   "title": "Experience",
+    //   "path": "/experience"
+    // },
+    // {
+    //   "title": "Skills",
+    //   "path": "/skills"
+    // },
     {
       "title": "Contact",
       "path": "/contact"
